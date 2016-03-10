@@ -1,0 +1,229 @@
+/*
+Theme Name: A little of everuthing! Solutions.
+Theme URI: www.miweb.com
+Description: descripcion del tema
+Version: 1
+Author: Yulieth Lubo
+Author URL: direccion web del autor
+*/
+
+/*Estilos generales alineaciones para el articulo*/
+.center {text-align: center;}
+img.center, img[align="center"] {display: block;margin-left: auto;margin-right: auto;}
+.alignleft {float: left;}
+img.alignleft, img[align="left"] {float:left;margin: 2px 10px 5px 0px;}
+.alignright {float: right;}
+img.alignright, img[align="right"] {float:right;margin: 2px 0px 5px 10px;}
+.clear {clear:both;}
+hr.clear {clear:both;visibility: hidden;margin: 0px;padding: 0px;height:0px;}
+
+#articles_list article p {
+	margin-bottom:15px;
+}
+
+
+/*-----Estilos Generales-----*/
+{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: #b1f6ea;
+	font-size: 12pt;
+	font-family:"open sans", Arial, Helvetica, sans-serif;
+}
+header, #main, footer{
+	width: 85%;
+	max-width:960px;
+	margin:0px auto;
+	}
+a {
+	color:#07544e;
+	text-decoration:none;
+	}
+	a: hover{
+		text-decoration: underline;	
+	}
+	header{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		overflow: hidden;
+		width: 85%;
+	}
+
+	header #logo{
+		width: 40%;
+		float:left;
+		
+
+	}
+	header nav{
+		width: 60%;
+		float: right;
+		padding: 10px 0px;
+		margin-top: 20px;
+	}
+		header nav ul{
+		float: right;
+	}
+	header nav ul li{
+		list-style: none;
+		display: inline-block;
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
+
+	header nav ul li a{
+		font-family: 'Raleway', Helvetica,arial;
+		font-weight: 300;
+		font-size: 2rem;
+		color:#07544e;
+	}
+
+header nav ul li a:hover{
+		text-decoration: none;
+		color: #139f94;
+	}
+	#serv{
+	font-family: 'Raleway', Helvetica,arial;
+		font-weight: 300;
+		font-size: 2rem;
+		color:#07544e;
+
+		}
+		#serv:hover{
+	text-decoration: none;
+		color: #139f94;
+
+		}
+		#textoslide{
+	font-size: 1.25rem;
+	text-align: center;
+		}
+
+		
+	.widget{
+		margin-bottom: 50px;
+		display: block;
+		float: left;
+	}
+
+	.widget h3{
+		font-size: 1.4rem;
+		font-family: "Raleway", "open sans",arial,Helvetica;
+		font-weight: 400;
+		color:#07544e; 
+		margin-bottom: 10px;
+	}
+	.widget ul li{
+		list-style: none;
+		margin-bottom: 10px;
+	}
+	.widget ul li a{
+		font-family: "open sans",Helvetica,arial,sans-serif;
+		color: #3f6968;
+		font-size: 1.1rem;
+	}
+	.widget ul li a:hover{
+	text-decoration: none;
+		color: #139f94;
+	}
+
+	footer{
+		margin-top: 20px;
+		width: 85%;
+	}
+
+	/*footer .widget{
+	width: 25%;
+	}*/
+	footer #copyright{
+		width: 100%;
+		clear: both;
+		text-align: center;
+		padding: 10px;
+		font-family: 'Raleway', Helvetica,arial;
+		font-size: 1.2rem;
+		color:#07544e;
+	}	
+	#main #articles_list{
+		clear: both;
+		width: 100%;
+		margin-top: 40px;
+		
+		}
+		#main #articles_list article{
+		margin-bottom: 40px;
+		margin-right: 4%;
+		padding-bottom: 40px;
+		border-bottom: 1px solid #054b49;
+		overflow: hidden;
+	}
+	
+	#main #articles_list article .thumb{
+		width: 35%;
+		margin-right: 2%;
+		margin-bottom: 2%;		
+		float: left;
+	}
+
+#main #articles_list article .thumb img{
+		width: 100%;
+		height: 100%;
+	}
+	#main #articles_list article p{
+		text-align: justify;
+		color: #0c3837;	
+	}
+	#main #articles_list article hgroup h3 a{
+		font-family: 'Raleway', Helvetica,arial;
+		font-weight: 300;
+		font-size: 2rem;
+		color:#07544e;
+	}
+
+	#main #articles_list article hgroup h3 a:hover{
+		text-decoration: none;
+		color: #139f94;
+	}
+	#main #articles_list #pagination {
+		margin-bottom: 40px;
+		width: 100%;
+		display: inline-block;
+	}
+	#main #articles_list #pagination p {
+		text-align: center;
+	}
+	#main #articles_list #pagination a {
+		font-family: 'Raleway', Helvetica,arial;
+		font-weight: 300;
+		font-size: 2rem;
+		color:#07544e;
+	}
+	#main #articles_list #pagination a:hover {
+		text-decoration: none;
+		color: #139f94;
+	}
+/*Comentarios*/
+#main #articles_list #comentarios {
+	margin-bottom:40px;
+	margin-right:4%; 
+}
+
+#main #articles_list #comentarios > h3 {
+	font-size:2rem;
+	font-family:"Raleway", "open-sans", helvetica, arial;
+	font-weight:500;
+	margin-bottom:20px;
+	color:#333333;
+}
+
+#main #articles_list #caja_comentarios {
+	background:#b1f6ea;
+	font-family:"open-sans", helvetica, arial;
+	font-weight:200;
+}
+#thumbpage{
+width: 100%;
+
+	}
